@@ -1,0 +1,78 @@
+header{
+    height: 100px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    color: green;
+    font-size: 100px;
+
+}
+
+.two{
+    padding-top: 15px;
+    display: flex;
+}
+
+.div1{  
+    width: 50%;
+    height: 30pc;
+    background-color: blue;    
+}
+.div1:hover{   
+    text-align: left; 
+    background-image: url(one.JPG); 
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50%;
+    height: 30pc;
+    color: white;
+    font-size: 30px;
+    background-color: rgb(0, 0, 0);   
+    transition: 2s; 
+}
+.div2{    
+    width: 50%;
+    height: 30pc;
+    background-color: rgb(255, 0, 0);
+}
+.div2:hover{    
+    width: 50%;
+    color: white;
+    font-size: 50px;
+    height: 30pc;
+    transition: 2s;
+    background-color: rgb(6, 4, 4);
+}
+.pdiv{
+    display: flex;
+}
+.div3{    
+    width: 50%;
+    height: 30pc;
+    background-color: rgb(0, 217, 255);
+}
+.div3:hover{    
+    width: 50%;
+    height: 30pc;
+    transition: 2s;
+    color: white;
+    font-size: 50px;
+    background-color: rgb(0, 0, 0);
+}
+.div4:hover{    
+    width: 50%;
+    height: 30pc;
+    transition: 2s;
+    font-size: 50px;
+    color: white;
+    background-color: rgb(3, 6, 7);
+}
+.div4{    
+    width: 50%;
+    height: 30pc;
+    background-color: rgb(244, 223, 2);
+}
+#name{
+    font-family:monospace;
+    font-family: 60px;
+}
